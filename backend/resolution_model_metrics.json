@@ -1,0 +1,315 @@
+{
+  "best_model": "Random Forest",
+  "models": {
+    "Random Forest": {
+      "accuracy": 0.7021,
+      "precision": 0.7095,
+      "recall": 0.6873,
+      "f1_score": 0.6967,
+      "confusion_matrix": [
+        [
+          14,
+          5,
+          0
+        ],
+        [
+          4,
+          14,
+          2
+        ],
+        [
+          0,
+          3,
+          5
+        ]
+      ],
+      "classification_report": {
+        "High Reopen Risk": {
+          "precision": 0.7777777777777778,
+          "recall": 0.7368421052631579,
+          "f1-score": 0.7567567567567568,
+          "support": 19.0
+        },
+        "Moderate Risk": {
+          "precision": 0.6363636363636364,
+          "recall": 0.7,
+          "f1-score": 0.6666666666666666,
+          "support": 20.0
+        },
+        "Successful Resolution": {
+          "precision": 0.7142857142857143,
+          "recall": 0.625,
+          "f1-score": 0.6666666666666666,
+          "support": 8.0
+        },
+        "accuracy": 0.7021276595744681,
+        "macro avg": {
+          "precision": 0.7094757094757095,
+          "recall": 0.6872807017543859,
+          "f1-score": 0.6966966966966966,
+          "support": 47.0
+        },
+        "weighted avg": {
+          "precision": 0.7067943876454515,
+          "recall": 0.7021276595744681,
+          "f1-score": 0.7030860647881924,
+          "support": 47.0
+        }
+      }
+    },
+    "XGBoost": {
+      "accuracy": 0.617,
+      "precision": 0.6,
+      "recall": 0.6215,
+      "f1_score": 0.6066,
+      "confusion_matrix": [
+        [
+          15,
+          4,
+          0
+        ],
+        [
+          7,
+          9,
+          4
+        ],
+        [
+          0,
+          3,
+          5
+        ]
+      ],
+      "classification_report": {
+        "High Reopen Risk": {
+          "precision": 0.6818181818181818,
+          "recall": 0.7894736842105263,
+          "f1-score": 0.7317073170731707,
+          "support": 19.0
+        },
+        "Moderate Risk": {
+          "precision": 0.5625,
+          "recall": 0.45,
+          "f1-score": 0.5,
+          "support": 20.0
+        },
+        "Successful Resolution": {
+          "precision": 0.5555555555555556,
+          "recall": 0.625,
+          "f1-score": 0.5882352941176471,
+          "support": 8.0
+        },
+        "accuracy": 0.6170212765957447,
+        "macro avg": {
+          "precision": 0.5999579124579124,
+          "recall": 0.6214912280701754,
+          "f1-score": 0.6066475370636059,
+          "support": 47.0
+        },
+        "weighted avg": {
+          "precision": 0.6095529765742531,
+          "recall": 0.6170212765957447,
+          "f1-score": 0.608687688879392,
+          "support": 47.0
+        }
+      }
+    },
+    "Logistic Regression": {
+      "accuracy": 0.6383,
+      "precision": 0.6235,
+      "recall": 0.6623,
+      "f1_score": 0.6363,
+      "confusion_matrix": [
+        [
+          14,
+          5,
+          0
+        ],
+        [
+          5,
+          10,
+          5
+        ],
+        [
+          0,
+          2,
+          6
+        ]
+      ],
+      "classification_report": {
+        "High Reopen Risk": {
+          "precision": 0.7368421052631579,
+          "recall": 0.7368421052631579,
+          "f1-score": 0.7368421052631579,
+          "support": 19.0
+        },
+        "Moderate Risk": {
+          "precision": 0.5882352941176471,
+          "recall": 0.5,
+          "f1-score": 0.5405405405405406,
+          "support": 20.0
+        },
+        "Successful Resolution": {
+          "precision": 0.5454545454545454,
+          "recall": 0.75,
+          "f1-score": 0.631578947368421,
+          "support": 8.0
+        },
+        "accuracy": 0.6382978723404256,
+        "macro avg": {
+          "precision": 0.6235106482784502,
+          "recall": 0.662280701754386,
+          "f1-score": 0.6363205310573731,
+          "support": 47.0
+        },
+        "weighted avg": {
+          "precision": 0.6410285584253044,
+          "recall": 0.6382978723404256,
+          "f1-score": 0.6353923912714505,
+          "support": 47.0
+        }
+      }
+    }
+  },
+  "target_distribution": {
+    "Moderate Risk": 97,
+    "High Reopen Risk": 95,
+    "Successful Resolution": 39
+  },
+  "correlation": {
+    "correlations": {
+      "risk_score": 0.4468,
+      "previous_failure_count": 0.3083,
+      "compliance_score": -0.2806,
+      "month": 0.2588,
+      "completion_time": 0.1587,
+      "resolution_time_ratio": 0.1587,
+      "ward_failure_rate": 0.1386,
+      "department_failure_rate": 0.0966,
+      "checklist_failure_rate": 0.0648,
+      "floor": 0.0021
+    },
+    "top_predictors": [
+      {
+        "feature": "risk_score",
+        "correlation": 0.4468
+      },
+      {
+        "feature": "previous_failure_count",
+        "correlation": 0.3083
+      },
+      {
+        "feature": "compliance_score",
+        "correlation": -0.2806
+      },
+      {
+        "feature": "month",
+        "correlation": 0.2588
+      },
+      {
+        "feature": "completion_time",
+        "correlation": 0.1587
+      },
+      {
+        "feature": "resolution_time_ratio",
+        "correlation": 0.1587
+      },
+      {
+        "feature": "ward_failure_rate",
+        "correlation": 0.1386
+      },
+      {
+        "feature": "department_failure_rate",
+        "correlation": 0.0966
+      }
+    ]
+  },
+  "feature_importance": [
+    {
+      "feature": "risk_score",
+      "importance": 0.1035
+    },
+    {
+      "feature": "previous_failure_count",
+      "importance": 0.0908
+    },
+    {
+      "feature": "status_Pass",
+      "importance": 0.0787
+    },
+    {
+      "feature": "status_Fail",
+      "importance": 0.0728
+    },
+    {
+      "feature": "month",
+      "importance": 0.0595
+    },
+    {
+      "feature": "compliance_score",
+      "importance": 0.0498
+    },
+    {
+      "feature": "resolution_time_ratio",
+      "importance": 0.0425
+    },
+    {
+      "feature": "risk_level_Low",
+      "importance": 0.0406
+    },
+    {
+      "feature": "completion_time",
+      "importance": 0.0379
+    },
+    {
+      "feature": "floor",
+      "importance": 0.0229
+    },
+    {
+      "feature": "risk_level_Critical",
+      "importance": 0.0217
+    },
+    {
+      "feature": "department_failure_rate",
+      "importance": 0.0203
+    },
+    {
+      "feature": "status_Pending",
+      "importance": 0.0203
+    },
+    {
+      "feature": "ward_failure_rate",
+      "importance": 0.0198
+    },
+    {
+      "feature": "checklist_failure_rate",
+      "importance": 0.0163
+    },
+    {
+      "feature": "compliance_status_Excellent",
+      "importance": 0.0144
+    },
+    {
+      "feature": "risk_level_High",
+      "importance": 0.0137
+    },
+    {
+      "feature": "priority_Low",
+      "importance": 0.011
+    },
+    {
+      "feature": "compliance_status_Non-Compliant",
+      "importance": 0.0108
+    },
+    {
+      "feature": "risk_level_Medium",
+      "importance": 0.0101
+    }
+  ],
+  "training_samples": 231,
+  "resolved_samples": 231,
+  "classes": [
+    "High Reopen Risk",
+    "Moderate Risk",
+    "Successful Resolution"
+  ]
+}

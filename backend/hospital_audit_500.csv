@@ -1,0 +1,501 @@
+audit_id,date,floor,ward,department,checklist_type,status,priority,assigned_staff,completion_time,image_uploaded,escalation_status,risk_score,compliance_score
+A0001,2025-01-30,3,OT,Outpatient,Safety Audit,Pending,Critical,S003,17,No,Open,66,94
+A0002,2025-01-20,4,General Ward,Outpatient,Hygiene Audit,Pass,Medium,S014,26,No,Closed,28,95
+A0003,2025-03-15,1,OPD,Patient Care,Hygiene Audit,Fail,Low,S007,16,No,Closed,94,66
+A0004,2025-06-06,4,Laboratory,Diagnostics,Waste Audit,Pending,Critical,S023,37,No,Open,82,98
+A0005,2025-04-17,5,General Ward,Diagnostics,Hygiene Audit,Pass,Medium,S013,60,No,Closed,43,82
+A0006,2025-06-14,2,General Ward,Patient Care,Fire Safety Audit,Pass,High,S023,25,No,Open,56,60
+A0007,2025-05-02,3,OPD,Outpatient,Hygiene Audit,Pass,Medium,S022,44,No,Closed,49,97
+A0008,2025-04-05,4,OT,Diagnostics,Safety Audit,Pending,Critical,S015,18,Yes,Open,75,79
+A0009,2025-06-23,1,OPD,Critical Care,Safety Audit,Pass,Medium,S017,45,Yes,Open,44,93
+A0010,2025-06-10,2,Laboratory,Diagnostics,Waste Audit,Pass,Critical,S016,23,No,Open,63,89
+A0011,2025-05-16,5,General Ward,Critical Care,Waste Audit,Pass,Low,S008,26,No,Closed,95,82
+A0012,2025-04-22,2,OPD,Critical Care,Waste Audit,Pending,Low,S004,28,No,Closed,47,88
+A0013,2025-03-12,4,ICU,Critical Care,Safety Audit,Pending,Medium,S016,36,Yes,Closed,56,85
+A0014,2025-05-18,1,OPD,Outpatient,Fire Safety Audit,Pending,Critical,S025,42,No,Open,54,78
+A0015,2025-03-05,3,OPD,Diagnostics,Fire Safety Audit,Pass,Critical,S017,33,No,Open,30,96
+A0016,2025-04-05,4,OT,Critical Care,Fire Safety Audit,Pending,High,S021,33,No,Open,39,91
+A0017,2025-02-07,5,General Ward,Diagnostics,Hygiene Audit,Pass,High,S006,18,Yes,Closed,76,90
+A0018,2025-02-09,1,OT,Diagnostics,Safety Audit,Pending,High,S029,56,Yes,Open,89,67
+A0019,2025-04-13,1,General Ward,Diagnostics,Hygiene Audit,Pending,High,S017,34,Yes,Closed,40,65
+A0020,2025-01-23,3,OPD,Outpatient,Hygiene Audit,Fail,Low,S008,59,No,Open,39,92
+A0021,2025-03-15,2,General Ward,Critical Care,Fire Safety Audit,Pending,High,S013,54,Yes,Closed,56,84
+A0022,2025-05-10,1,OT,Outpatient,Safety Audit,Pending,Critical,S014,11,No,Open,66,96
+A0023,2025-03-02,1,Laboratory,Outpatient,Safety Audit,Fail,Medium,S006,49,No,Open,35,95
+A0024,2025-02-16,4,OPD,Surgery,Waste Audit,Fail,Medium,S006,19,Yes,Closed,45,72
+A0025,2025-05-24,1,General Ward,Surgery,Hygiene Audit,Pending,Critical,S006,13,Yes,Open,36,97
+A0026,2025-05-06,1,General Ward,Outpatient,Waste Audit,Pass,Low,S012,40,Yes,Open,31,60
+A0027,2025-04-20,2,OT,Patient Care,Safety Audit,Pass,High,S011,47,No,Closed,88,80
+A0028,2025-06-14,1,OT,Patient Care,Fire Safety Audit,Fail,High,S023,51,Yes,Closed,56,99
+A0029,2025-02-23,4,ICU,Outpatient,Hygiene Audit,Pending,Low,S028,26,No,Closed,49,94
+A0030,2025-05-06,5,OPD,Diagnostics,Hygiene Audit,Fail,Low,S030,15,No,Closed,29,79
+A0031,2025-04-16,5,OT,Critical Care,Waste Audit,Fail,Medium,S030,27,Yes,Open,31,86
+A0032,2025-01-08,5,General Ward,Patient Care,Safety Audit,Pending,Medium,S023,34,Yes,Closed,87,95
+A0033,2025-01-24,4,OPD,Critical Care,Hygiene Audit,Pending,High,S015,11,Yes,Open,77,80
+A0034,2025-05-07,1,OT,Critical Care,Safety Audit,Pass,Medium,S029,54,No,Closed,93,83
+A0035,2025-03-07,4,OPD,Patient Care,Waste Audit,Pending,High,S026,35,No,Closed,86,80
+A0036,2025-01-12,1,ICU,Diagnostics,Hygiene Audit,Fail,Medium,S030,60,No,Closed,73,100
+A0037,2025-05-17,3,OT,Critical Care,Hygiene Audit,Pass,Critical,S009,6,No,Open,29,95
+A0038,2025-02-23,4,General Ward,Outpatient,Hygiene Audit,Fail,Critical,S027,22,No,Open,56,65
+A0039,2025-03-07,1,Laboratory,Outpatient,Safety Audit,Fail,Critical,S027,57,No,Open,57,83
+A0040,2025-06-03,1,Laboratory,Outpatient,Safety Audit,Pass,Low,S001,59,No,Open,29,73
+A0041,2025-06-12,5,Laboratory,Surgery,Hygiene Audit,Fail,High,S020,14,Yes,Closed,54,94
+A0042,2025-03-15,1,General Ward,Outpatient,Safety Audit,Fail,Medium,S007,45,Yes,Open,49,94
+A0043,2025-04-28,5,OT,Surgery,Fire Safety Audit,Fail,Medium,S016,9,Yes,Open,85,85
+A0044,2025-06-19,1,ICU,Patient Care,Safety Audit,Fail,High,S009,33,Yes,Open,57,76
+A0045,2025-04-25,1,OT,Surgery,Safety Audit,Pending,Low,S017,14,No,Closed,26,65
+A0046,2025-05-22,5,OPD,Surgery,Hygiene Audit,Fail,Low,S025,39,No,Open,48,79
+A0047,2025-02-19,3,Laboratory,Outpatient,Safety Audit,Pass,Critical,S008,20,No,Closed,93,93
+A0048,2025-01-23,1,OPD,Patient Care,Fire Safety Audit,Pending,Low,S019,11,Yes,Closed,89,77
+A0049,2025-01-06,5,ICU,Surgery,Fire Safety Audit,Fail,High,S010,20,Yes,Open,35,85
+A0050,2025-04-20,2,OPD,Surgery,Waste Audit,Pass,Medium,S021,39,Yes,Closed,89,70
+A0051,2025-01-30,3,General Ward,Outpatient,Hygiene Audit,Fail,Low,S025,31,No,Open,61,91
+A0052,2025-03-21,2,General Ward,Critical Care,Safety Audit,Pass,Critical,S019,8,Yes,Open,71,62
+A0053,2025-02-02,5,OT,Surgery,Hygiene Audit,Pass,Critical,S022,59,No,Open,67,94
+A0054,2025-03-04,5,ICU,Outpatient,Safety Audit,Fail,Medium,S001,16,No,Closed,52,68
+A0055,2025-06-12,3,OT,Patient Care,Fire Safety Audit,Fail,Low,S016,18,Yes,Closed,57,98
+A0056,2025-03-07,3,Laboratory,Outpatient,Fire Safety Audit,Pending,Medium,S009,38,No,Open,43,77
+A0057,2025-05-30,1,General Ward,Surgery,Hygiene Audit,Pass,Medium,S005,8,Yes,Open,36,92
+A0058,2025-05-23,1,Laboratory,Outpatient,Hygiene Audit,Pending,Medium,S021,37,No,Closed,36,69
+A0059,2025-04-20,5,ICU,Critical Care,Hygiene Audit,Pending,Low,S023,41,No,Open,92,66
+A0060,2025-02-05,4,ICU,Critical Care,Waste Audit,Pending,Medium,S004,40,No,Closed,88,100
+A0061,2025-05-08,4,General Ward,Patient Care,Safety Audit,Pass,High,S026,7,No,Open,55,66
+A0062,2025-05-08,2,ICU,Critical Care,Waste Audit,Pending,Medium,S006,22,Yes,Closed,76,79
+A0063,2025-04-10,1,Laboratory,Diagnostics,Fire Safety Audit,Fail,Low,S004,16,Yes,Closed,25,79
+A0064,2025-04-13,5,OT,Patient Care,Hygiene Audit,Fail,High,S025,37,No,Open,22,97
+A0065,2025-03-22,4,ICU,Outpatient,Waste Audit,Pending,Low,S006,22,No,Open,78,78
+A0066,2025-05-01,2,General Ward,Patient Care,Safety Audit,Pass,Medium,S004,24,Yes,Closed,84,89
+A0067,2025-02-05,5,General Ward,Patient Care,Fire Safety Audit,Pending,Low,S021,48,Yes,Open,72,96
+A0068,2025-03-26,5,Laboratory,Patient Care,Fire Safety Audit,Pass,Low,S030,49,No,Open,22,60
+A0069,2025-03-03,5,Laboratory,Critical Care,Hygiene Audit,Pass,Critical,S009,39,No,Open,34,98
+A0070,2025-06-06,5,Laboratory,Patient Care,Fire Safety Audit,Pending,Low,S014,41,No,Open,54,63
+A0071,2025-02-04,2,ICU,Diagnostics,Safety Audit,Pending,Low,S013,20,No,Open,55,74
+A0072,2025-06-09,2,ICU,Surgery,Safety Audit,Pending,High,S025,48,Yes,Open,36,70
+A0073,2025-01-15,1,ICU,Patient Care,Safety Audit,Fail,Critical,S008,35,Yes,Open,24,80
+A0074,2025-02-23,1,OPD,Surgery,Waste Audit,Pending,Low,S016,16,Yes,Closed,89,82
+A0075,2025-04-06,5,General Ward,Patient Care,Fire Safety Audit,Pending,High,S017,8,No,Open,90,88
+A0076,2025-01-22,5,OT,Patient Care,Fire Safety Audit,Pending,Medium,S008,49,No,Closed,38,71
+A0077,2025-03-09,3,Laboratory,Diagnostics,Hygiene Audit,Pending,High,S002,37,No,Closed,90,69
+A0078,2025-03-29,3,OPD,Patient Care,Fire Safety Audit,Fail,Critical,S023,28,No,Open,25,88
+A0079,2025-01-24,5,General Ward,Patient Care,Fire Safety Audit,Pass,Critical,S009,31,No,Open,25,70
+A0080,2025-04-15,1,General Ward,Surgery,Fire Safety Audit,Fail,Low,S014,56,Yes,Open,91,70
+A0081,2025-01-24,1,ICU,Critical Care,Safety Audit,Pending,High,S003,18,Yes,Closed,44,83
+A0082,2025-01-10,3,OT,Outpatient,Waste Audit,Pass,Critical,S008,21,No,Open,52,76
+A0083,2025-02-02,4,ICU,Diagnostics,Safety Audit,Fail,Critical,S026,10,Yes,Closed,78,99
+A0084,2025-02-27,3,OT,Diagnostics,Fire Safety Audit,Pending,High,S002,37,Yes,Closed,47,67
+A0085,2025-03-14,3,OPD,Surgery,Hygiene Audit,Pending,Low,S015,22,Yes,Open,42,73
+A0086,2025-01-14,3,ICU,Patient Care,Safety Audit,Fail,Medium,S019,34,Yes,Open,53,95
+A0087,2025-01-11,5,General Ward,Surgery,Fire Safety Audit,Pass,Low,S019,36,Yes,Open,93,73
+A0088,2025-01-24,5,General Ward,Outpatient,Safety Audit,Fail,High,S029,30,No,Closed,62,92
+A0089,2025-04-24,3,Laboratory,Surgery,Fire Safety Audit,Fail,Critical,S007,56,Yes,Closed,84,94
+A0090,2025-05-03,5,OT,Patient Care,Fire Safety Audit,Pass,Critical,S019,56,Yes,Closed,33,92
+A0091,2025-01-29,4,OPD,Surgery,Fire Safety Audit,Fail,Low,S019,17,Yes,Closed,71,73
+A0092,2025-05-16,4,OPD,Surgery,Fire Safety Audit,Pending,High,S028,29,No,Closed,49,81
+A0093,2025-04-13,3,OT,Outpatient,Safety Audit,Pass,Medium,S013,47,Yes,Closed,61,83
+A0094,2025-06-28,3,OPD,Patient Care,Safety Audit,Pending,High,S007,48,No,Open,24,80
+A0095,2025-05-19,5,OPD,Outpatient,Fire Safety Audit,Pass,Medium,S006,22,No,Open,39,87
+A0096,2025-04-26,1,ICU,Critical Care,Hygiene Audit,Fail,High,S014,54,No,Closed,40,62
+A0097,2025-06-30,3,Laboratory,Surgery,Safety Audit,Pending,High,S013,56,Yes,Closed,78,63
+A0098,2025-05-01,1,Laboratory,Critical Care,Fire Safety Audit,Pass,High,S011,49,Yes,Open,50,84
+A0099,2025-03-20,1,OT,Outpatient,Fire Safety Audit,Pending,Medium,S011,48,No,Open,47,83
+A0100,2025-03-15,2,ICU,Critical Care,Fire Safety Audit,Fail,Critical,S024,55,Yes,Open,94,90
+A0101,2025-06-05,1,OPD,Diagnostics,Hygiene Audit,Pass,Medium,S011,56,Yes,Open,52,83
+A0102,2025-03-26,2,OPD,Outpatient,Waste Audit,Pending,High,S028,11,No,Closed,56,69
+A0103,2025-01-29,1,OT,Patient Care,Fire Safety Audit,Fail,Critical,S010,54,No,Closed,21,95
+A0104,2025-02-13,4,OPD,Patient Care,Hygiene Audit,Pass,Low,S004,56,No,Closed,56,99
+A0105,2025-01-29,2,OT,Patient Care,Waste Audit,Fail,Medium,S024,10,Yes,Closed,83,74
+A0106,2025-04-22,2,General Ward,Critical Care,Safety Audit,Pass,Low,S002,7,No,Closed,57,89
+A0107,2025-05-20,4,Laboratory,Surgery,Safety Audit,Pass,Critical,S021,28,Yes,Closed,82,90
+A0108,2025-05-17,4,OT,Surgery,Safety Audit,Pending,High,S012,9,Yes,Open,76,94
+A0109,2025-06-18,1,OT,Surgery,Waste Audit,Pass,Medium,S007,36,Yes,Closed,93,89
+A0110,2025-04-09,2,OT,Diagnostics,Fire Safety Audit,Pass,Medium,S011,30,No,Open,75,61
+A0111,2025-01-28,1,OT,Critical Care,Hygiene Audit,Fail,Critical,S026,30,Yes,Open,42,81
+A0112,2025-04-09,2,ICU,Critical Care,Hygiene Audit,Pass,Critical,S011,46,Yes,Closed,34,88
+A0113,2025-02-17,4,OT,Diagnostics,Hygiene Audit,Fail,Low,S001,47,No,Closed,72,71
+A0114,2025-05-08,4,OT,Critical Care,Fire Safety Audit,Pending,Low,S030,24,Yes,Open,83,69
+A0115,2025-05-11,1,Laboratory,Critical Care,Fire Safety Audit,Pass,Critical,S026,34,No,Open,43,98
+A0116,2025-06-27,1,OPD,Diagnostics,Fire Safety Audit,Pass,High,S024,31,Yes,Open,62,65
+A0117,2025-05-11,5,OT,Diagnostics,Hygiene Audit,Fail,Critical,S013,51,Yes,Open,85,91
+A0118,2025-04-30,2,OT,Diagnostics,Fire Safety Audit,Pass,Medium,S017,27,No,Open,58,77
+A0119,2025-04-16,1,General Ward,Patient Care,Fire Safety Audit,Fail,High,S013,58,Yes,Closed,54,86
+A0120,2025-05-13,3,ICU,Surgery,Hygiene Audit,Pass,Critical,S017,23,No,Open,88,68
+A0121,2025-06-10,5,OT,Diagnostics,Safety Audit,Pending,Low,S025,11,No,Open,72,63
+A0122,2025-03-03,5,General Ward,Outpatient,Waste Audit,Pending,Medium,S023,49,No,Open,95,82
+A0123,2025-02-04,1,General Ward,Critical Care,Fire Safety Audit,Pass,High,S008,50,Yes,Closed,30,61
+A0124,2025-05-30,2,ICU,Patient Care,Waste Audit,Pass,Low,S014,47,No,Closed,69,83
+A0125,2025-05-21,3,General Ward,Outpatient,Fire Safety Audit,Fail,Medium,S019,52,No,Open,80,88
+A0126,2025-05-11,5,General Ward,Critical Care,Fire Safety Audit,Fail,Medium,S004,32,No,Open,41,99
+A0127,2025-01-04,4,General Ward,Surgery,Safety Audit,Pass,Low,S012,44,No,Closed,49,87
+A0128,2025-03-23,1,General Ward,Diagnostics,Safety Audit,Fail,Medium,S021,5,Yes,Closed,32,81
+A0129,2025-06-05,4,OT,Patient Care,Waste Audit,Fail,Critical,S003,15,Yes,Open,84,66
+A0130,2025-02-03,5,General Ward,Patient Care,Safety Audit,Pending,Medium,S028,35,No,Closed,53,93
+A0131,2025-03-26,2,Laboratory,Outpatient,Hygiene Audit,Fail,Low,S001,9,No,Closed,87,95
+A0132,2025-05-05,5,Laboratory,Surgery,Waste Audit,Pass,Critical,S009,17,No,Closed,79,81
+A0133,2025-01-03,1,ICU,Surgery,Fire Safety Audit,Pending,Low,S007,14,No,Closed,37,85
+A0134,2025-03-10,1,ICU,Patient Care,Safety Audit,Pending,Medium,S026,6,No,Closed,46,100
+A0135,2025-04-28,5,OT,Surgery,Fire Safety Audit,Pass,Medium,S006,34,No,Open,72,94
+A0136,2025-02-04,3,Laboratory,Outpatient,Fire Safety Audit,Pass,High,S029,49,No,Closed,29,71
+A0137,2025-01-30,5,General Ward,Diagnostics,Waste Audit,Fail,Critical,S021,41,Yes,Open,91,76
+A0138,2025-03-01,5,Laboratory,Patient Care,Waste Audit,Fail,Critical,S014,20,Yes,Closed,88,95
+A0139,2025-06-23,1,OT,Critical Care,Safety Audit,Fail,High,S006,23,No,Open,71,67
+A0140,2025-01-15,4,Laboratory,Patient Care,Hygiene Audit,Fail,High,S014,38,Yes,Open,89,82
+A0141,2025-05-15,4,OT,Diagnostics,Safety Audit,Pass,Low,S008,22,No,Open,37,79
+A0142,2025-05-02,5,General Ward,Patient Care,Waste Audit,Fail,Critical,S011,50,Yes,Closed,28,68
+A0143,2025-02-04,1,General Ward,Outpatient,Hygiene Audit,Pass,High,S011,14,Yes,Closed,74,70
+A0144,2025-04-06,1,OPD,Patient Care,Waste Audit,Pass,Medium,S005,7,Yes,Closed,64,77
+A0145,2025-03-25,3,General Ward,Diagnostics,Waste Audit,Pending,High,S010,22,Yes,Closed,21,76
+A0146,2025-06-28,2,OPD,Diagnostics,Fire Safety Audit,Pass,Critical,S019,19,No,Open,63,95
+A0147,2025-06-11,3,ICU,Diagnostics,Safety Audit,Pass,Medium,S019,23,No,Open,90,87
+A0148,2025-05-25,4,OT,Outpatient,Safety Audit,Pass,High,S021,19,No,Open,69,60
+A0149,2025-01-03,2,Laboratory,Critical Care,Safety Audit,Pass,Medium,S025,56,No,Open,77,62
+A0150,2025-03-15,1,OPD,Outpatient,Safety Audit,Pass,Low,S014,25,Yes,Open,24,66
+A0151,2025-02-09,3,General Ward,Surgery,Safety Audit,Pass,Medium,S029,24,Yes,Open,81,79
+A0152,2025-02-21,3,OT,Critical Care,Safety Audit,Pass,Critical,S013,41,Yes,Open,57,74
+A0153,2025-06-03,3,OT,Diagnostics,Hygiene Audit,Pending,Critical,S029,50,Yes,Open,88,77
+A0154,2025-02-12,1,Laboratory,Patient Care,Safety Audit,Pending,Medium,S016,56,No,Open,69,71
+A0155,2025-05-14,4,General Ward,Outpatient,Waste Audit,Pending,Critical,S020,7,Yes,Closed,26,80
+A0156,2025-05-23,2,Laboratory,Diagnostics,Safety Audit,Pending,Critical,S007,56,Yes,Open,83,62
+A0157,2025-02-23,5,General Ward,Patient Care,Fire Safety Audit,Pass,Medium,S013,60,No,Open,27,94
+A0158,2025-05-09,3,Laboratory,Diagnostics,Safety Audit,Pending,Critical,S008,51,No,Open,91,82
+A0159,2025-01-29,1,Laboratory,Surgery,Waste Audit,Pass,Low,S016,29,Yes,Closed,71,91
+A0160,2025-02-02,3,General Ward,Diagnostics,Fire Safety Audit,Pass,Low,S020,42,No,Closed,88,60
+A0161,2025-01-20,1,OT,Outpatient,Hygiene Audit,Pass,Medium,S029,36,No,Closed,41,61
+A0162,2025-05-30,5,OT,Surgery,Waste Audit,Pass,Medium,S030,31,Yes,Open,24,98
+A0163,2025-01-18,3,Laboratory,Outpatient,Waste Audit,Pending,High,S012,41,No,Open,52,68
+A0164,2025-05-09,5,ICU,Diagnostics,Waste Audit,Pass,Low,S030,8,No,Open,74,66
+A0165,2025-05-07,1,OPD,Patient Care,Safety Audit,Pass,High,S022,51,Yes,Open,25,67
+A0166,2025-06-02,4,OT,Critical Care,Waste Audit,Fail,High,S001,19,No,Open,42,78
+A0167,2025-02-22,4,Laboratory,Patient Care,Waste Audit,Fail,High,S003,55,Yes,Closed,75,100
+A0168,2025-06-11,1,OT,Critical Care,Safety Audit,Fail,Low,S016,56,No,Open,23,83
+A0169,2025-06-11,3,OPD,Surgery,Hygiene Audit,Pass,Critical,S029,27,No,Open,47,75
+A0170,2025-03-07,4,OPD,Critical Care,Safety Audit,Pass,Low,S012,33,No,Open,61,96
+A0171,2025-01-06,3,OT,Surgery,Waste Audit,Pass,Medium,S022,40,No,Open,23,93
+A0172,2025-06-20,5,OT,Critical Care,Waste Audit,Fail,High,S002,27,No,Open,80,86
+A0173,2025-02-23,2,Laboratory,Surgery,Safety Audit,Pass,Low,S007,52,No,Closed,51,86
+A0174,2025-01-31,4,Laboratory,Outpatient,Hygiene Audit,Pending,Low,S001,34,Yes,Closed,57,98
+A0175,2025-02-12,1,Laboratory,Surgery,Safety Audit,Pending,High,S028,32,Yes,Open,61,89
+A0176,2025-01-17,1,Laboratory,Outpatient,Hygiene Audit,Pass,Medium,S005,37,Yes,Open,38,91
+A0177,2025-02-14,2,ICU,Critical Care,Safety Audit,Fail,Low,S008,58,No,Open,56,71
+A0178,2025-06-08,1,General Ward,Surgery,Hygiene Audit,Fail,High,S018,47,Yes,Open,76,62
+A0179,2025-06-07,2,ICU,Outpatient,Hygiene Audit,Fail,High,S020,28,Yes,Closed,72,86
+A0180,2025-06-27,1,OT,Diagnostics,Waste Audit,Pass,High,S028,44,No,Open,51,77
+A0181,2025-03-13,2,OPD,Surgery,Safety Audit,Pass,Medium,S012,13,Yes,Closed,63,78
+A0182,2025-04-01,4,ICU,Outpatient,Safety Audit,Pass,Critical,S001,57,Yes,Closed,44,72
+A0183,2025-02-05,2,ICU,Surgery,Safety Audit,Pending,Critical,S013,28,No,Closed,20,69
+A0184,2025-02-21,5,OPD,Diagnostics,Hygiene Audit,Pending,Medium,S030,10,No,Closed,38,78
+A0185,2025-01-25,2,OPD,Outpatient,Hygiene Audit,Pending,Low,S017,58,No,Open,24,72
+A0186,2025-01-11,2,General Ward,Surgery,Hygiene Audit,Fail,Low,S012,5,No,Open,59,91
+A0187,2025-02-03,1,General Ward,Surgery,Fire Safety Audit,Pending,High,S023,22,Yes,Open,20,66
+A0188,2025-04-19,2,ICU,Outpatient,Hygiene Audit,Pass,Low,S009,32,Yes,Closed,35,66
+A0189,2025-05-13,5,OPD,Diagnostics,Hygiene Audit,Pass,High,S005,5,No,Open,45,84
+A0190,2025-03-14,2,OT,Surgery,Hygiene Audit,Pending,Low,S015,16,No,Closed,80,87
+A0191,2025-05-06,1,OT,Outpatient,Hygiene Audit,Pending,Critical,S004,60,Yes,Closed,91,75
+A0192,2025-02-26,3,OPD,Patient Care,Waste Audit,Fail,High,S021,36,No,Closed,91,79
+A0193,2025-05-04,3,OPD,Critical Care,Fire Safety Audit,Pending,High,S018,19,Yes,Closed,41,88
+A0194,2025-06-14,2,OT,Patient Care,Safety Audit,Pending,High,S023,34,Yes,Open,74,84
+A0195,2025-01-13,2,General Ward,Patient Care,Hygiene Audit,Fail,High,S009,49,No,Open,71,98
+A0196,2025-01-24,2,General Ward,Surgery,Fire Safety Audit,Fail,High,S010,12,No,Open,75,81
+A0197,2025-06-26,3,General Ward,Critical Care,Hygiene Audit,Pass,Critical,S025,53,No,Closed,64,66
+A0198,2025-02-22,4,General Ward,Patient Care,Safety Audit,Pass,Critical,S021,41,No,Open,87,92
+A0199,2025-04-17,5,OPD,Outpatient,Safety Audit,Pass,Low,S002,21,No,Closed,59,89
+A0200,2025-01-31,2,Laboratory,Outpatient,Hygiene Audit,Pass,Critical,S002,56,Yes,Closed,95,74
+A0201,2025-01-02,5,OT,Critical Care,Hygiene Audit,Pass,Low,S015,11,No,Open,82,72
+A0202,2025-01-10,5,ICU,Outpatient,Hygiene Audit,Pass,Medium,S020,46,No,Closed,25,76
+A0203,2025-05-26,3,Laboratory,Outpatient,Safety Audit,Pending,Critical,S021,13,No,Closed,82,76
+A0204,2025-05-28,4,ICU,Critical Care,Waste Audit,Fail,High,S010,56,No,Open,51,69
+A0205,2025-02-06,3,General Ward,Critical Care,Waste Audit,Fail,High,S009,16,Yes,Open,70,60
+A0206,2025-01-27,2,Laboratory,Surgery,Fire Safety Audit,Fail,Critical,S018,33,No,Open,53,84
+A0207,2025-04-21,3,OT,Critical Care,Hygiene Audit,Fail,Medium,S006,30,Yes,Open,52,82
+A0208,2025-01-22,5,Laboratory,Diagnostics,Waste Audit,Pending,High,S022,44,Yes,Closed,45,92
+A0209,2025-01-24,4,OT,Outpatient,Safety Audit,Fail,Medium,S016,18,Yes,Closed,86,70
+A0210,2025-04-29,2,General Ward,Patient Care,Safety Audit,Pending,High,S028,21,No,Open,49,73
+A0211,2025-06-12,4,OPD,Outpatient,Fire Safety Audit,Pending,High,S027,51,No,Open,78,98
+A0212,2025-05-10,4,OT,Surgery,Fire Safety Audit,Pass,Critical,S020,17,Yes,Open,47,90
+A0213,2025-04-10,4,OPD,Patient Care,Safety Audit,Pass,Low,S003,20,Yes,Open,70,67
+A0214,2025-06-01,4,OPD,Surgery,Waste Audit,Fail,High,S029,21,No,Open,69,96
+A0215,2025-05-15,3,ICU,Critical Care,Hygiene Audit,Pass,Critical,S015,54,No,Open,81,99
+A0216,2025-05-25,2,General Ward,Diagnostics,Waste Audit,Fail,Medium,S028,47,No,Open,39,77
+A0217,2025-03-27,4,OT,Patient Care,Hygiene Audit,Pass,Medium,S008,15,No,Closed,56,86
+A0218,2025-06-15,4,Laboratory,Critical Care,Fire Safety Audit,Fail,Low,S012,26,No,Closed,28,93
+A0219,2025-03-20,1,Laboratory,Critical Care,Waste Audit,Pass,Critical,S023,53,Yes,Open,61,60
+A0220,2025-06-15,3,ICU,Patient Care,Hygiene Audit,Pending,High,S009,28,No,Closed,51,78
+A0221,2025-06-28,1,Laboratory,Surgery,Waste Audit,Pass,Low,S019,14,No,Closed,95,99
+A0222,2025-02-13,2,ICU,Diagnostics,Hygiene Audit,Fail,Medium,S008,40,Yes,Open,80,69
+A0223,2025-04-19,2,Laboratory,Diagnostics,Hygiene Audit,Fail,Low,S001,9,Yes,Open,87,66
+A0224,2025-05-13,3,ICU,Surgery,Fire Safety Audit,Pending,Medium,S013,24,No,Open,73,94
+A0225,2025-04-18,4,Laboratory,Diagnostics,Fire Safety Audit,Pass,Medium,S018,36,No,Closed,71,60
+A0226,2025-04-29,1,ICU,Critical Care,Fire Safety Audit,Fail,Low,S004,58,No,Closed,47,80
+A0227,2025-06-03,5,OT,Critical Care,Safety Audit,Pending,Medium,S010,9,Yes,Open,54,96
+A0228,2025-05-08,2,General Ward,Diagnostics,Fire Safety Audit,Fail,Medium,S001,47,Yes,Open,62,93
+A0229,2025-03-09,4,OPD,Surgery,Fire Safety Audit,Pass,Low,S003,33,Yes,Open,27,65
+A0230,2025-01-21,2,OPD,Outpatient,Hygiene Audit,Pending,Medium,S007,15,Yes,Closed,68,81
+A0231,2025-04-23,3,General Ward,Critical Care,Fire Safety Audit,Fail,High,S006,14,No,Closed,42,92
+A0232,2025-04-18,3,ICU,Diagnostics,Safety Audit,Pass,Medium,S021,33,Yes,Closed,36,85
+A0233,2025-03-10,3,Laboratory,Outpatient,Hygiene Audit,Pass,Critical,S014,46,No,Open,70,62
+A0234,2025-06-07,2,ICU,Outpatient,Hygiene Audit,Pending,Low,S026,10,No,Open,34,74
+A0235,2025-03-28,4,ICU,Critical Care,Hygiene Audit,Fail,Low,S012,30,Yes,Open,80,76
+A0236,2025-06-07,2,Laboratory,Outpatient,Fire Safety Audit,Pending,Low,S006,9,No,Open,47,99
+A0237,2025-05-21,1,General Ward,Surgery,Fire Safety Audit,Pending,Medium,S002,8,Yes,Closed,93,79
+A0238,2025-06-05,2,OT,Critical Care,Waste Audit,Pass,Low,S023,26,Yes,Closed,95,89
+A0239,2025-06-01,1,OPD,Critical Care,Waste Audit,Pending,High,S021,51,No,Open,75,74
+A0240,2025-01-06,1,General Ward,Diagnostics,Waste Audit,Pending,High,S012,43,No,Open,80,91
+A0241,2025-01-18,5,OPD,Critical Care,Waste Audit,Pending,Medium,S029,18,Yes,Open,76,80
+A0242,2025-05-12,1,OPD,Critical Care,Waste Audit,Pending,Critical,S003,56,No,Open,25,97
+A0243,2025-04-27,4,Laboratory,Surgery,Waste Audit,Pending,Medium,S006,13,Yes,Open,44,78
+A0244,2025-04-03,4,General Ward,Outpatient,Hygiene Audit,Pass,Critical,S015,47,Yes,Closed,60,71
+A0245,2025-05-15,4,OPD,Patient Care,Fire Safety Audit,Pass,Critical,S003,25,No,Open,61,85
+A0246,2025-06-04,5,OT,Diagnostics,Safety Audit,Pending,Low,S010,21,Yes,Open,66,75
+A0247,2025-01-19,5,OT,Critical Care,Waste Audit,Pending,Medium,S002,18,Yes,Closed,64,87
+A0248,2025-05-19,5,General Ward,Diagnostics,Hygiene Audit,Fail,Medium,S018,25,No,Open,87,73
+A0249,2025-01-30,1,ICU,Outpatient,Fire Safety Audit,Pending,Medium,S028,40,No,Open,84,90
+A0250,2025-03-27,2,General Ward,Critical Care,Fire Safety Audit,Fail,Low,S023,57,Yes,Closed,84,78
+A0251,2025-03-10,1,ICU,Surgery,Hygiene Audit,Pass,Low,S025,51,Yes,Open,88,81
+A0252,2025-02-02,3,General Ward,Surgery,Fire Safety Audit,Pass,Low,S012,31,No,Open,56,93
+A0253,2025-02-02,2,General Ward,Diagnostics,Fire Safety Audit,Pass,High,S013,56,No,Open,35,88
+A0254,2025-03-31,2,General Ward,Outpatient,Safety Audit,Fail,Critical,S011,56,Yes,Closed,24,69
+A0255,2025-05-06,1,ICU,Surgery,Fire Safety Audit,Pass,Medium,S014,44,Yes,Closed,81,76
+A0256,2025-05-01,3,Laboratory,Outpatient,Hygiene Audit,Fail,Medium,S029,44,Yes,Closed,53,75
+A0257,2025-06-08,1,Laboratory,Surgery,Waste Audit,Pass,Medium,S002,43,Yes,Open,94,63
+A0258,2025-04-30,4,OPD,Outpatient,Waste Audit,Fail,High,S014,5,No,Open,73,99
+A0259,2025-01-14,1,ICU,Patient Care,Safety Audit,Pending,High,S003,15,Yes,Closed,29,77
+A0260,2025-02-03,1,Laboratory,Patient Care,Hygiene Audit,Pass,Critical,S028,40,No,Open,31,79
+A0261,2025-04-23,5,ICU,Patient Care,Waste Audit,Pass,Low,S006,60,No,Closed,54,89
+A0262,2025-06-07,2,Laboratory,Diagnostics,Fire Safety Audit,Pass,High,S028,42,Yes,Closed,83,93
+A0263,2025-06-28,4,ICU,Patient Care,Safety Audit,Fail,High,S009,5,No,Closed,65,90
+A0264,2025-04-07,5,OPD,Diagnostics,Hygiene Audit,Fail,Medium,S008,15,No,Open,92,66
+A0265,2025-05-31,2,Laboratory,Outpatient,Hygiene Audit,Fail,Critical,S019,52,Yes,Open,86,85
+A0266,2025-02-23,4,OT,Surgery,Safety Audit,Pass,Medium,S015,17,No,Open,20,73
+A0267,2025-06-12,5,General Ward,Outpatient,Safety Audit,Pending,Low,S014,10,Yes,Open,43,66
+A0268,2025-06-15,1,OT,Critical Care,Waste Audit,Pass,Critical,S003,14,No,Closed,36,77
+A0269,2025-05-28,5,General Ward,Patient Care,Waste Audit,Fail,Low,S008,44,Yes,Open,78,60
+A0270,2025-01-21,3,OT,Outpatient,Fire Safety Audit,Pass,High,S025,21,No,Closed,42,70
+A0271,2025-02-13,2,ICU,Surgery,Fire Safety Audit,Pass,Low,S006,18,No,Closed,56,88
+A0272,2025-01-28,5,Laboratory,Outpatient,Safety Audit,Pass,High,S007,44,No,Closed,46,91
+A0273,2025-05-26,2,OT,Critical Care,Fire Safety Audit,Pass,High,S029,23,No,Open,92,78
+A0274,2025-03-28,2,ICU,Surgery,Fire Safety Audit,Pass,Medium,S012,35,No,Closed,22,95
+A0275,2025-06-23,3,ICU,Surgery,Fire Safety Audit,Pending,Medium,S017,29,Yes,Open,66,87
+A0276,2025-06-28,3,Laboratory,Outpatient,Fire Safety Audit,Pending,Low,S029,28,No,Open,80,78
+A0277,2025-05-30,2,Laboratory,Diagnostics,Waste Audit,Pending,Medium,S001,55,No,Closed,74,68
+A0278,2025-04-20,4,ICU,Patient Care,Hygiene Audit,Pending,High,S010,25,No,Closed,59,60
+A0279,2025-06-21,5,General Ward,Surgery,Fire Safety Audit,Pass,Low,S005,28,Yes,Closed,45,68
+A0280,2025-01-09,1,Laboratory,Patient Care,Fire Safety Audit,Pending,Low,S018,11,No,Open,54,84
+A0281,2025-02-04,2,OT,Surgery,Fire Safety Audit,Fail,Low,S008,35,Yes,Closed,91,85
+A0282,2025-03-25,1,Laboratory,Critical Care,Safety Audit,Pass,High,S018,48,Yes,Open,71,92
+A0283,2025-01-31,5,OT,Patient Care,Waste Audit,Pass,High,S009,60,No,Open,59,80
+A0284,2025-06-06,1,OT,Diagnostics,Waste Audit,Pass,Critical,S020,24,No,Closed,63,85
+A0285,2025-04-12,4,Laboratory,Patient Care,Waste Audit,Fail,High,S002,15,Yes,Closed,53,62
+A0286,2025-06-02,3,General Ward,Outpatient,Waste Audit,Pending,Critical,S004,50,Yes,Open,40,64
+A0287,2025-01-27,1,OT,Diagnostics,Hygiene Audit,Pending,Low,S012,41,No,Open,94,64
+A0288,2025-04-29,5,OT,Critical Care,Hygiene Audit,Pending,Critical,S011,14,No,Closed,63,84
+A0289,2025-04-30,2,OT,Patient Care,Waste Audit,Pending,Medium,S002,46,No,Open,88,82
+A0290,2025-03-06,4,Laboratory,Outpatient,Fire Safety Audit,Pass,Medium,S008,25,No,Closed,59,73
+A0291,2025-04-29,4,OT,Patient Care,Fire Safety Audit,Pass,Medium,S027,30,Yes,Open,25,89
+A0292,2025-03-12,3,OPD,Outpatient,Hygiene Audit,Pending,Low,S028,57,No,Closed,94,74
+A0293,2025-04-02,3,OPD,Outpatient,Waste Audit,Fail,High,S016,16,No,Closed,57,71
+A0294,2025-04-17,5,General Ward,Patient Care,Hygiene Audit,Pass,High,S005,40,Yes,Open,64,64
+A0295,2025-06-15,3,Laboratory,Patient Care,Fire Safety Audit,Pass,Medium,S005,57,No,Closed,44,66
+A0296,2025-04-28,4,OT,Outpatient,Safety Audit,Pass,Low,S012,18,No,Open,49,85
+A0297,2025-03-05,4,General Ward,Patient Care,Safety Audit,Pending,High,S001,26,No,Closed,93,91
+A0298,2025-04-03,2,OPD,Critical Care,Waste Audit,Pass,High,S021,20,No,Open,68,81
+A0299,2025-02-28,3,General Ward,Surgery,Fire Safety Audit,Fail,Critical,S002,42,Yes,Open,26,92
+A0300,2025-01-30,1,OT,Surgery,Fire Safety Audit,Pass,Medium,S017,5,Yes,Open,93,93
+A0301,2025-04-20,2,Laboratory,Surgery,Hygiene Audit,Pass,Medium,S026,35,No,Closed,49,67
+A0302,2025-01-17,2,OT,Surgery,Safety Audit,Fail,Critical,S014,9,No,Open,95,74
+A0303,2025-02-13,1,OPD,Outpatient,Fire Safety Audit,Pending,Critical,S021,29,Yes,Closed,32,79
+A0304,2025-03-07,2,Laboratory,Outpatient,Fire Safety Audit,Pass,High,S002,11,Yes,Closed,63,73
+A0305,2025-04-12,4,OT,Patient Care,Safety Audit,Fail,Low,S021,15,No,Closed,74,88
+A0306,2025-04-22,2,OPD,Patient Care,Waste Audit,Fail,Critical,S009,59,No,Closed,74,61
+A0307,2025-06-18,2,ICU,Surgery,Hygiene Audit,Pending,Low,S007,20,Yes,Closed,39,86
+A0308,2025-01-05,4,Laboratory,Critical Care,Fire Safety Audit,Pass,Critical,S024,6,Yes,Closed,25,78
+A0309,2025-05-30,1,General Ward,Outpatient,Hygiene Audit,Pass,Critical,S022,9,Yes,Closed,68,74
+A0310,2025-06-28,4,OPD,Patient Care,Waste Audit,Pending,Low,S021,38,No,Open,88,76
+A0311,2025-05-22,4,OPD,Diagnostics,Fire Safety Audit,Fail,Medium,S008,36,Yes,Open,46,65
+A0312,2025-05-21,5,Laboratory,Surgery,Waste Audit,Pass,Low,S004,17,No,Closed,33,72
+A0313,2025-02-08,1,General Ward,Diagnostics,Fire Safety Audit,Pass,Low,S011,7,Yes,Open,77,79
+A0314,2025-01-21,4,OT,Critical Care,Safety Audit,Fail,High,S010,48,No,Open,65,100
+A0315,2025-02-28,2,General Ward,Surgery,Hygiene Audit,Pending,Critical,S005,32,Yes,Open,90,78
+A0316,2025-05-21,4,Laboratory,Diagnostics,Safety Audit,Pending,Critical,S013,54,Yes,Closed,74,72
+A0317,2025-04-09,2,General Ward,Outpatient,Safety Audit,Pending,Critical,S007,22,No,Closed,58,60
+A0318,2025-01-28,4,OT,Critical Care,Safety Audit,Fail,Low,S001,18,No,Closed,72,74
+A0319,2025-03-18,3,OPD,Outpatient,Safety Audit,Pending,High,S023,14,No,Open,86,65
+A0320,2025-04-09,2,ICU,Diagnostics,Waste Audit,Pending,High,S024,12,Yes,Open,68,93
+A0321,2025-03-21,2,General Ward,Critical Care,Safety Audit,Fail,Medium,S004,12,No,Closed,90,87
+A0322,2025-05-11,4,ICU,Critical Care,Safety Audit,Fail,Critical,S013,35,No,Closed,72,90
+A0323,2025-04-19,5,OPD,Critical Care,Waste Audit,Pending,Critical,S020,34,No,Closed,59,81
+A0324,2025-03-25,5,ICU,Surgery,Safety Audit,Pending,High,S022,34,No,Open,42,79
+A0325,2025-03-04,2,OT,Critical Care,Hygiene Audit,Pass,High,S015,34,No,Open,20,91
+A0326,2025-03-29,2,Laboratory,Patient Care,Hygiene Audit,Pass,Critical,S019,49,No,Open,74,63
+A0327,2025-04-07,2,General Ward,Surgery,Fire Safety Audit,Fail,Medium,S015,30,Yes,Closed,26,92
+A0328,2025-02-24,2,Laboratory,Critical Care,Safety Audit,Pass,High,S019,13,Yes,Open,21,81
+A0329,2025-03-23,1,Laboratory,Diagnostics,Waste Audit,Pending,Low,S014,9,No,Closed,76,90
+A0330,2025-06-16,4,OT,Critical Care,Hygiene Audit,Pending,Medium,S016,60,Yes,Open,40,65
+A0331,2025-04-18,1,OPD,Outpatient,Fire Safety Audit,Pass,Critical,S010,14,Yes,Open,91,96
+A0332,2025-03-06,2,OT,Outpatient,Waste Audit,Pass,Low,S013,42,No,Closed,78,92
+A0333,2025-02-18,4,ICU,Patient Care,Hygiene Audit,Pass,Critical,S029,9,Yes,Open,84,61
+A0334,2025-06-23,1,General Ward,Outpatient,Safety Audit,Pass,Low,S011,13,No,Open,89,96
+A0335,2025-01-31,2,General Ward,Critical Care,Waste Audit,Pass,Low,S013,52,No,Closed,70,72
+A0336,2025-06-13,4,OT,Diagnostics,Fire Safety Audit,Fail,High,S018,15,No,Open,68,73
+A0337,2025-04-18,1,Laboratory,Patient Care,Fire Safety Audit,Pass,High,S010,46,No,Closed,87,60
+A0338,2025-02-25,5,General Ward,Patient Care,Safety Audit,Fail,Critical,S028,20,No,Closed,52,98
+A0339,2025-01-11,2,OT,Diagnostics,Waste Audit,Pending,Medium,S003,60,No,Closed,68,67
+A0340,2025-04-20,5,OPD,Patient Care,Waste Audit,Fail,High,S015,47,Yes,Open,21,61
+A0341,2025-05-07,2,OT,Surgery,Waste Audit,Pass,Medium,S001,9,No,Open,91,69
+A0342,2025-05-29,5,OPD,Patient Care,Waste Audit,Pending,Low,S021,14,Yes,Open,42,96
+A0343,2025-06-21,2,OT,Outpatient,Safety Audit,Pending,Critical,S027,29,Yes,Closed,88,64
+A0344,2025-03-20,2,Laboratory,Critical Care,Hygiene Audit,Pass,Low,S011,33,Yes,Open,76,75
+A0345,2025-06-13,1,Laboratory,Outpatient,Waste Audit,Pending,Low,S014,22,Yes,Closed,64,73
+A0346,2025-02-14,2,Laboratory,Critical Care,Waste Audit,Pass,Medium,S029,18,No,Open,66,61
+A0347,2025-04-17,4,OPD,Critical Care,Hygiene Audit,Pass,High,S027,37,Yes,Closed,63,77
+A0348,2025-03-17,3,General Ward,Outpatient,Hygiene Audit,Pass,Critical,S010,21,No,Closed,41,76
+A0349,2025-02-17,5,Laboratory,Critical Care,Safety Audit,Pending,Low,S010,41,No,Closed,76,98
+A0350,2025-04-24,4,OT,Critical Care,Waste Audit,Fail,Medium,S009,56,No,Open,83,61
+A0351,2025-01-01,3,ICU,Patient Care,Waste Audit,Fail,High,S026,53,Yes,Open,76,84
+A0352,2025-04-25,3,Laboratory,Critical Care,Fire Safety Audit,Fail,Critical,S007,38,No,Open,28,71
+A0353,2025-01-26,2,General Ward,Patient Care,Safety Audit,Pass,Critical,S018,28,No,Open,45,87
+A0354,2025-03-01,5,General Ward,Diagnostics,Hygiene Audit,Fail,Medium,S012,28,Yes,Closed,85,79
+A0355,2025-06-28,2,OPD,Surgery,Hygiene Audit,Fail,Medium,S007,12,Yes,Open,51,96
+A0356,2025-05-19,5,ICU,Surgery,Hygiene Audit,Pending,Low,S008,44,No,Closed,44,85
+A0357,2025-03-17,2,Laboratory,Outpatient,Waste Audit,Pass,High,S013,11,No,Open,25,100
+A0358,2025-06-15,3,General Ward,Outpatient,Safety Audit,Pending,High,S024,14,Yes,Open,85,65
+A0359,2025-03-25,5,Laboratory,Critical Care,Hygiene Audit,Pass,Low,S008,13,No,Closed,61,68
+A0360,2025-03-05,1,OT,Patient Care,Waste Audit,Pass,Critical,S010,42,Yes,Open,62,69
+A0361,2025-04-26,4,General Ward,Diagnostics,Safety Audit,Pass,Medium,S027,25,No,Closed,24,71
+A0362,2025-05-16,5,OT,Patient Care,Hygiene Audit,Pass,Critical,S009,14,Yes,Closed,91,68
+A0363,2025-02-23,3,General Ward,Diagnostics,Hygiene Audit,Fail,High,S004,53,Yes,Open,35,68
+A0364,2025-05-10,3,OPD,Patient Care,Fire Safety Audit,Pass,High,S030,55,No,Open,60,72
+A0365,2025-03-11,3,OPD,Surgery,Fire Safety Audit,Pass,Low,S006,35,No,Open,44,60
+A0366,2025-01-28,2,General Ward,Critical Care,Hygiene Audit,Pending,Low,S030,44,Yes,Open,51,86
+A0367,2025-05-19,5,ICU,Outpatient,Waste Audit,Fail,Critical,S005,8,No,Open,63,73
+A0368,2025-03-05,2,Laboratory,Patient Care,Fire Safety Audit,Pass,Low,S012,53,Yes,Open,49,63
+A0369,2025-04-17,2,OT,Patient Care,Hygiene Audit,Pass,Medium,S019,9,Yes,Open,59,93
+A0370,2025-04-24,4,OPD,Diagnostics,Safety Audit,Fail,Medium,S002,17,No,Open,87,90
+A0371,2025-03-17,1,Laboratory,Patient Care,Safety Audit,Pending,High,S021,55,No,Open,45,63
+A0372,2025-05-08,3,OT,Patient Care,Hygiene Audit,Fail,High,S024,26,Yes,Closed,39,61
+A0373,2025-06-05,5,OPD,Critical Care,Safety Audit,Fail,High,S008,59,Yes,Closed,78,75
+A0374,2025-04-07,1,General Ward,Critical Care,Fire Safety Audit,Pending,Medium,S003,53,No,Closed,73,99
+A0375,2025-06-20,1,OPD,Diagnostics,Waste Audit,Pass,Medium,S020,28,Yes,Closed,34,98
+A0376,2025-06-19,2,Laboratory,Surgery,Hygiene Audit,Pending,Low,S011,8,No,Open,39,91
+A0377,2025-04-02,2,General Ward,Diagnostics,Safety Audit,Pending,Critical,S020,23,Yes,Open,79,71
+A0378,2025-05-03,5,ICU,Surgery,Fire Safety Audit,Pending,Low,S017,46,Yes,Closed,90,75
+A0379,2025-01-25,5,Laboratory,Critical Care,Hygiene Audit,Pass,Medium,S023,34,Yes,Open,93,92
+A0380,2025-03-16,5,OPD,Diagnostics,Waste Audit,Fail,Medium,S026,24,No,Closed,61,97
+A0381,2025-06-17,2,ICU,Critical Care,Safety Audit,Fail,High,S025,32,No,Open,56,66
+A0382,2025-06-13,2,General Ward,Surgery,Hygiene Audit,Fail,High,S002,24,No,Open,90,72
+A0383,2025-06-05,2,Laboratory,Diagnostics,Safety Audit,Pending,Low,S008,14,No,Closed,27,98
+A0384,2025-02-23,2,OT,Surgery,Safety Audit,Pass,Medium,S029,59,Yes,Closed,69,92
+A0385,2025-04-04,1,ICU,Critical Care,Fire Safety Audit,Fail,Low,S025,30,No,Closed,38,76
+A0386,2025-05-31,1,OPD,Patient Care,Hygiene Audit,Pending,Low,S026,6,No,Open,65,78
+A0387,2025-05-13,3,General Ward,Patient Care,Waste Audit,Pass,Low,S029,37,No,Closed,56,90
+A0388,2025-05-04,1,Laboratory,Patient Care,Safety Audit,Pending,Critical,S002,43,Yes,Closed,33,99
+A0389,2025-06-27,4,OPD,Critical Care,Hygiene Audit,Pass,Critical,S002,9,No,Open,69,72
+A0390,2025-05-05,2,General Ward,Diagnostics,Fire Safety Audit,Pending,High,S002,45,Yes,Closed,75,95
+A0391,2025-05-20,3,ICU,Diagnostics,Safety Audit,Fail,Low,S015,5,Yes,Closed,22,80
+A0392,2025-05-04,5,OPD,Diagnostics,Hygiene Audit,Pending,Critical,S022,7,Yes,Open,39,78
+A0393,2025-04-12,2,OPD,Critical Care,Fire Safety Audit,Pending,Critical,S001,13,No,Open,71,69
+A0394,2025-05-07,4,Laboratory,Patient Care,Hygiene Audit,Pending,Low,S019,27,Yes,Open,53,95
+A0395,2025-01-10,5,Laboratory,Patient Care,Fire Safety Audit,Pending,High,S026,27,No,Closed,41,88
+A0396,2025-01-11,1,General Ward,Outpatient,Safety Audit,Fail,Critical,S012,56,Yes,Open,93,97
+A0397,2025-04-30,1,ICU,Outpatient,Safety Audit,Fail,Low,S017,41,No,Open,73,100
+A0398,2025-04-02,5,Laboratory,Patient Care,Safety Audit,Fail,Medium,S003,15,No,Closed,93,92
+A0399,2025-03-06,2,Laboratory,Patient Care,Safety Audit,Pass,Critical,S028,35,Yes,Closed,22,91
+A0400,2025-03-24,2,OT,Outpatient,Fire Safety Audit,Fail,High,S018,34,Yes,Closed,42,83
+A0401,2025-01-30,2,OT,Diagnostics,Hygiene Audit,Fail,High,S010,55,No,Open,47,93
+A0402,2025-02-23,5,Laboratory,Critical Care,Waste Audit,Pass,High,S030,18,Yes,Open,20,80
+A0403,2025-05-01,2,General Ward,Patient Care,Hygiene Audit,Pending,Low,S002,16,No,Closed,63,97
+A0404,2025-06-20,2,Laboratory,Critical Care,Fire Safety Audit,Pending,Medium,S007,7,No,Open,49,100
+A0405,2025-02-18,1,Laboratory,Outpatient,Waste Audit,Pending,High,S010,19,Yes,Open,93,98
+A0406,2025-04-20,4,General Ward,Outpatient,Safety Audit,Pending,High,S007,55,Yes,Closed,24,90
+A0407,2025-02-22,5,ICU,Diagnostics,Waste Audit,Pending,Medium,S011,59,No,Open,41,67
+A0408,2025-06-25,2,OT,Surgery,Safety Audit,Pass,Low,S016,28,No,Open,95,100
+A0409,2025-01-03,1,OPD,Patient Care,Hygiene Audit,Pass,Low,S029,54,No,Closed,91,69
+A0410,2025-03-11,4,ICU,Critical Care,Waste Audit,Fail,Low,S016,36,Yes,Closed,44,85
+A0411,2025-01-25,1,ICU,Surgery,Fire Safety Audit,Pass,Low,S003,30,No,Open,71,60
+A0412,2025-05-20,4,OT,Patient Care,Waste Audit,Pass,Low,S005,6,Yes,Open,88,63
+A0413,2025-04-20,1,General Ward,Surgery,Waste Audit,Fail,High,S006,21,Yes,Closed,92,98
+A0414,2025-04-30,4,OT,Diagnostics,Waste Audit,Pass,Low,S001,44,No,Closed,45,78
+A0415,2025-06-13,5,General Ward,Patient Care,Fire Safety Audit,Fail,Critical,S012,22,No,Closed,29,60
+A0416,2025-06-13,3,OPD,Diagnostics,Safety Audit,Pending,High,S015,41,Yes,Closed,23,71
+A0417,2025-05-15,2,Laboratory,Outpatient,Fire Safety Audit,Pending,Low,S029,47,Yes,Closed,61,69
+A0418,2025-05-06,3,Laboratory,Surgery,Hygiene Audit,Pending,Low,S029,48,Yes,Closed,45,68
+A0419,2025-03-13,2,OPD,Outpatient,Fire Safety Audit,Fail,Low,S004,9,No,Closed,87,61
+A0420,2025-06-04,3,Laboratory,Critical Care,Safety Audit,Pending,High,S003,34,Yes,Open,47,63
+A0421,2025-03-04,4,OPD,Diagnostics,Fire Safety Audit,Fail,Medium,S007,20,No,Closed,36,94
+A0422,2025-02-16,3,ICU,Surgery,Waste Audit,Fail,High,S013,50,Yes,Open,78,89
+A0423,2025-03-09,4,ICU,Critical Care,Hygiene Audit,Pass,Low,S009,16,No,Closed,80,84
+A0424,2025-03-30,1,OT,Diagnostics,Fire Safety Audit,Pending,Critical,S028,31,Yes,Closed,40,98
+A0425,2025-04-04,4,Laboratory,Outpatient,Hygiene Audit,Pending,High,S011,20,Yes,Open,84,63
+A0426,2025-06-28,1,ICU,Surgery,Waste Audit,Pass,High,S017,34,Yes,Closed,60,75
+A0427,2025-06-05,5,Laboratory,Diagnostics,Waste Audit,Pending,High,S016,45,Yes,Closed,27,75
+A0428,2025-05-14,4,ICU,Critical Care,Hygiene Audit,Pending,Medium,S029,43,Yes,Closed,70,83
+A0429,2025-02-02,1,OPD,Critical Care,Fire Safety Audit,Fail,Critical,S013,15,Yes,Open,75,74
+A0430,2025-02-01,3,Laboratory,Patient Care,Safety Audit,Pass,Critical,S011,31,No,Open,69,86
+A0431,2025-05-08,1,OT,Patient Care,Waste Audit,Fail,Critical,S022,37,No,Open,77,86
+A0432,2025-05-07,3,ICU,Outpatient,Waste Audit,Pass,Low,S008,59,Yes,Open,49,76
+A0433,2025-05-29,3,General Ward,Critical Care,Waste Audit,Pass,Medium,S022,22,No,Open,90,64
+A0434,2025-03-23,1,General Ward,Outpatient,Waste Audit,Pending,Low,S003,43,Yes,Closed,63,63
+A0435,2025-05-09,1,OPD,Diagnostics,Safety Audit,Pending,Critical,S002,8,Yes,Open,35,78
+A0436,2025-06-15,3,General Ward,Patient Care,Fire Safety Audit,Pass,Medium,S024,42,No,Closed,83,76
+A0437,2025-02-25,2,OPD,Patient Care,Safety Audit,Pending,High,S006,16,Yes,Open,64,76
+A0438,2025-02-10,3,General Ward,Critical Care,Waste Audit,Fail,Critical,S005,54,Yes,Open,68,63
+A0439,2025-04-15,4,OT,Diagnostics,Waste Audit,Fail,Critical,S011,11,Yes,Open,58,70
+A0440,2025-06-12,4,Laboratory,Outpatient,Safety Audit,Pending,Low,S014,24,No,Closed,23,78
+A0441,2025-05-27,2,Laboratory,Surgery,Safety Audit,Pending,High,S019,27,Yes,Open,29,70
+A0442,2025-01-03,3,OT,Surgery,Hygiene Audit,Pending,Low,S015,20,Yes,Closed,32,84
+A0443,2025-04-11,5,OPD,Patient Care,Hygiene Audit,Pass,Low,S012,18,Yes,Closed,73,95
+A0444,2025-04-02,2,OPD,Surgery,Safety Audit,Pass,Critical,S010,55,Yes,Closed,31,61
+A0445,2025-05-31,4,General Ward,Patient Care,Waste Audit,Pass,Medium,S008,59,Yes,Open,49,60
+A0446,2025-05-29,1,Laboratory,Patient Care,Safety Audit,Pending,Critical,S001,44,No,Open,72,78
+A0447,2025-01-01,5,General Ward,Surgery,Waste Audit,Fail,Critical,S003,46,No,Closed,52,85
+A0448,2025-05-04,5,OT,Outpatient,Waste Audit,Pass,Low,S021,45,No,Open,67,89
+A0449,2025-02-19,1,OT,Diagnostics,Fire Safety Audit,Pending,High,S028,25,No,Open,48,74
+A0450,2025-03-16,3,Laboratory,Patient Care,Fire Safety Audit,Fail,Medium,S019,32,No,Closed,30,61
+A0451,2025-05-20,5,OPD,Diagnostics,Safety Audit,Fail,Medium,S028,60,No,Open,73,81
+A0452,2025-01-03,1,General Ward,Critical Care,Hygiene Audit,Fail,Medium,S005,30,Yes,Open,92,100
+A0453,2025-03-08,3,ICU,Outpatient,Hygiene Audit,Fail,Medium,S023,57,Yes,Open,75,86
+A0454,2025-01-02,3,OPD,Outpatient,Hygiene Audit,Pass,Medium,S022,8,No,Closed,52,86
+A0455,2025-03-09,5,Laboratory,Diagnostics,Hygiene Audit,Pending,Medium,S026,48,No,Open,69,62
+A0456,2025-03-01,3,ICU,Outpatient,Waste Audit,Pass,High,S015,34,No,Closed,84,93
+A0457,2025-01-13,1,General Ward,Diagnostics,Hygiene Audit,Pass,High,S012,39,No,Open,91,64
+A0458,2025-04-22,2,OPD,Diagnostics,Hygiene Audit,Fail,Low,S027,29,Yes,Open,44,80
+A0459,2025-04-07,3,OPD,Surgery,Safety Audit,Pass,Medium,S018,33,No,Open,41,77
+A0460,2025-01-23,1,Laboratory,Patient Care,Fire Safety Audit,Pending,High,S012,45,No,Open,35,83
+A0461,2025-04-09,4,Laboratory,Surgery,Hygiene Audit,Pending,Critical,S026,55,Yes,Closed,56,67
+A0462,2025-01-17,2,Laboratory,Patient Care,Waste Audit,Pass,Medium,S002,30,No,Open,38,84
+A0463,2025-02-18,5,OT,Diagnostics,Fire Safety Audit,Pass,High,S016,43,No,Closed,43,71
+A0464,2025-03-10,4,ICU,Patient Care,Safety Audit,Pending,High,S019,49,No,Open,89,91
+A0465,2025-04-29,3,ICU,Diagnostics,Fire Safety Audit,Pass,Low,S024,14,Yes,Closed,74,96
+A0466,2025-01-14,3,ICU,Patient Care,Hygiene Audit,Pass,Critical,S007,46,Yes,Closed,55,61
+A0467,2025-02-16,2,General Ward,Surgery,Fire Safety Audit,Pass,High,S011,34,No,Closed,68,93
+A0468,2025-05-01,2,General Ward,Critical Care,Waste Audit,Fail,Medium,S026,53,Yes,Closed,78,79
+A0469,2025-03-30,5,ICU,Outpatient,Hygiene Audit,Pending,Low,S015,8,No,Open,94,94
+A0470,2025-01-31,4,OPD,Diagnostics,Hygiene Audit,Pass,Low,S024,46,No,Closed,68,72
+A0471,2025-01-06,2,ICU,Surgery,Hygiene Audit,Pending,Medium,S021,15,Yes,Open,62,96
+A0472,2025-03-21,2,OPD,Diagnostics,Hygiene Audit,Fail,Critical,S028,26,No,Open,42,95
+A0473,2025-02-10,3,Laboratory,Outpatient,Waste Audit,Fail,Medium,S015,35,No,Closed,94,95
+A0474,2025-02-14,2,General Ward,Critical Care,Waste Audit,Pass,Medium,S024,32,Yes,Open,79,60
+A0475,2025-04-23,2,OT,Surgery,Fire Safety Audit,Fail,Medium,S013,33,Yes,Open,86,95
+A0476,2025-02-15,1,General Ward,Critical Care,Safety Audit,Fail,High,S004,10,Yes,Closed,83,69
+A0477,2025-06-18,2,Laboratory,Critical Care,Safety Audit,Pass,Low,S019,14,Yes,Closed,44,85
+A0478,2025-05-31,1,OPD,Diagnostics,Waste Audit,Pass,Critical,S027,37,Yes,Open,47,76
+A0479,2025-03-21,1,OPD,Patient Care,Safety Audit,Pass,High,S023,57,No,Open,21,97
+A0480,2025-02-20,1,OPD,Surgery,Hygiene Audit,Pass,High,S024,55,Yes,Open,29,96
+A0481,2025-01-21,4,General Ward,Patient Care,Safety Audit,Pass,Critical,S022,7,No,Closed,22,87
+A0482,2025-03-01,3,OT,Diagnostics,Waste Audit,Pass,Low,S006,42,Yes,Closed,55,77
+A0483,2025-05-04,1,Laboratory,Diagnostics,Hygiene Audit,Pass,High,S026,54,No,Closed,43,69
+A0484,2025-04-03,3,OT,Surgery,Safety Audit,Pending,High,S028,35,No,Open,66,65
+A0485,2025-04-15,5,ICU,Patient Care,Safety Audit,Pass,Critical,S009,11,Yes,Closed,24,86
+A0486,2025-03-10,1,General Ward,Patient Care,Safety Audit,Pending,Critical,S001,5,Yes,Closed,88,62
+A0487,2025-05-09,1,ICU,Critical Care,Hygiene Audit,Pass,Low,S015,52,No,Closed,89,77
+A0488,2025-04-30,1,Laboratory,Diagnostics,Fire Safety Audit,Pending,Low,S025,47,No,Closed,95,89
+A0489,2025-03-02,5,OPD,Surgery,Waste Audit,Fail,Low,S009,60,No,Open,78,67
+A0490,2025-04-16,5,OPD,Surgery,Safety Audit,Pending,Medium,S007,16,No,Closed,85,84
+A0491,2025-01-27,4,Laboratory,Patient Care,Safety Audit,Pending,Critical,S016,42,Yes,Closed,23,91
+A0492,2025-05-16,3,OPD,Critical Care,Safety Audit,Pending,Low,S006,46,No,Open,86,71
+A0493,2025-02-12,5,OT,Patient Care,Fire Safety Audit,Pending,Medium,S002,15,Yes,Open,61,66
+A0494,2025-04-28,3,OPD,Critical Care,Hygiene Audit,Fail,Low,S021,12,No,Closed,68,97
+A0495,2025-04-21,4,General Ward,Critical Care,Fire Safety Audit,Pass,Medium,S013,34,No,Open,66,98
+A0496,2025-04-29,2,General Ward,Diagnostics,Safety Audit,Pass,Medium,S013,31,Yes,Open,81,74
+A0497,2025-02-26,4,OPD,Critical Care,Fire Safety Audit,Pending,Medium,S022,44,No,Closed,53,61
+A0498,2025-02-05,3,Laboratory,Outpatient,Waste Audit,Fail,High,S028,57,Yes,Open,71,63
+A0499,2025-02-17,5,OPD,Critical Care,Fire Safety Audit,Pass,Low,S009,51,No,Closed,33,63
+A0500,2025-04-05,2,OT,Critical Care,Hygiene Audit,Fail,Low,S010,15,Yes,Closed,66,99

@@ -1,0 +1,82 @@
+[
+  {
+    "feature": "risk_score",
+    "importance": 0.1035
+  },
+  {
+    "feature": "previous_failure_count",
+    "importance": 0.0908
+  },
+  {
+    "feature": "status_Pass",
+    "importance": 0.0787
+  },
+  {
+    "feature": "status_Fail",
+    "importance": 0.0728
+  },
+  {
+    "feature": "month",
+    "importance": 0.0595
+  },
+  {
+    "feature": "compliance_score",
+    "importance": 0.0498
+  },
+  {
+    "feature": "resolution_time_ratio",
+    "importance": 0.0425
+  },
+  {
+    "feature": "risk_level_Low",
+    "importance": 0.0406
+  },
+  {
+    "feature": "completion_time",
+    "importance": 0.0379
+  },
+  {
+    "feature": "floor",
+    "importance": 0.0229
+  },
+  {
+    "feature": "risk_level_Critical",
+    "importance": 0.0217
+  },
+  {
+    "feature": "department_failure_rate",
+    "importance": 0.0203
+  },
+  {
+    "feature": "status_Pending",
+    "importance": 0.0203
+  },
+  {
+    "feature": "ward_failure_rate",
+    "importance": 0.0198
+  },
+  {
+    "feature": "checklist_failure_rate",
+    "importance": 0.0163
+  },
+  {
+    "feature": "compliance_status_Excellent",
+    "importance": 0.0144
+  },
+  {
+    "feature": "risk_level_High",
+    "importance": 0.0137
+  },
+  {
+    "feature": "priority_Low",
+    "importance": 0.011
+  },
+  {
+    "feature": "compliance_status_Non-Compliant",
+    "importance": 0.0108
+  },
+  {
+    "feature": "risk_level_Medium",
+    "importance": 0.0101
+  }
+]
